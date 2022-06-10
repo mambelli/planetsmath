@@ -27,3 +27,7 @@ def sum_product(list):
     for item in list:
         product *= item
     return product
+
+
+def square_array(list):
+    return [item*item for item in list]
