@@ -58,4 +58,3 @@ REUSE is installed as development dependency or you can install it manually
   can be added to the `.reuse/dep5` file
 - New licenses can be added to the project using `reuse download LCENSEID`. Please
   contact project management if this is needed.
-

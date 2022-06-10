@@ -4,11 +4,10 @@
 from setuptools import setup
 
 setup(
-        name='planets',
-        version='0.0.1',
-        packages=['planetsmath'],
-        install_requires=[
-            'numpy',
-        ],
+    name="planets",
+    version="0.0.1",
+    packages=["planetsmath"],
+    install_requires=[
+        "numpy",
+    ],
 )
-

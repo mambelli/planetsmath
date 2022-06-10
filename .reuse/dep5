@@ -12,4 +12,3 @@ Source: https://github.com/HEPCloud/decisionengine
 Files: .editorconfig .gitignore .pre-commit-config.yaml .pylintrc requirements.txt
 Copyright: 2022 Fermi Research Alliance, LLC
 License: Apache-2.0
-
