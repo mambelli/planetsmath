@@ -28,3 +28,10 @@ def sum_product(list):
     for item in list:
         product *= item
     return product
+
+
+def make_author_print(author="Guillermo"):
+    """This function makes a print of the author of this change
+    This should be made with spaces now
+    """
+    print("Guillermo Made a fork")
