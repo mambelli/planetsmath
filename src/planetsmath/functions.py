@@ -30,7 +30,7 @@ def sum_product(list):
     return product
 
 
-def square_array(list):
+def square_array2(list):
     return [item*item for item in list]
 
 
