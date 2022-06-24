@@ -35,3 +35,7 @@ def make_author_print(author="Guillermo"):
     This should be made with spaces now
     """
     print("Guillermo Made a fork")
+
+
+def square_array(list):
+    return [item * item for item in list]
