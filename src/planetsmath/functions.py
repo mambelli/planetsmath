@@ -29,7 +29,9 @@ def sum_product(list):
         product *= item
     return product
 
-
+def square_array(list):
+    return [item*item for item in list]
+    
 def make_author_print(author="Guillermo"):
     """This function makes a print of the author of this change
     This should be made with spaces now
