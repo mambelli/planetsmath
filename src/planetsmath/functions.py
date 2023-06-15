@@ -28,3 +28,9 @@ def sum_product(list):
     for item in list:
         product *= item
     return product
+
+def mutipleby2(list):
+    for item in list:
+        item += item
+    return list
+    
