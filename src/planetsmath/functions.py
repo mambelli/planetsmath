@@ -20,7 +20,7 @@ def sum_function(list):
     sum = 0.0
     for item in list:
         sum += item
-    return sum
+    return sum+1
 
 def multiply(int1, int2):
     return int1*int2
