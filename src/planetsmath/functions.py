@@ -28,3 +28,7 @@ def sum_product(list):
     for item in list:
         product *= item
     return product
+
+def square(list):
+    sq = [p*p for p in list]
+    return sq
