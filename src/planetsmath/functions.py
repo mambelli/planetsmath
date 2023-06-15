@@ -29,6 +29,7 @@ def sum_product(list):
         product *= item
     return product
 
+
 def square(list):
     sq = [p*p for p in list]
     return sq
