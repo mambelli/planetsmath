@@ -28,3 +28,7 @@ def sum_product(list):
     for item in list:
         product *= item
     return product
+
+def stairs():
+    for i in range(20)
+        print('stairs?')
