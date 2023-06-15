@@ -29,6 +29,7 @@ def sum_product(list):
         product *= item
     return product
 
+
 def multiply_by_2(list):
     product = 1.0
     for item in list:
