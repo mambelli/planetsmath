@@ -28,3 +28,7 @@ def sum_product(list):
     for item in list:
         product *= item
     return product
+
+def hello_marco():
+    x = print('Hello Marco! This was quite the journey.')
+    return x
