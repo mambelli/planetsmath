@@ -29,5 +29,14 @@ def sum_product(list):
         product *= item
     return product
 
+
 def best_func():
     print("Yo mama")
+
+    
+def multiply_by_2(list):
+    product = 1.0
+    for item in list:
+        product *= 2
+    return product
+
