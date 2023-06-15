@@ -35,3 +35,7 @@ def multiply_by_2(list):
     for item in list:
         product *= 2
     return product
+
+
+def youaregreat(name):
+    return name, ", You are great!"
