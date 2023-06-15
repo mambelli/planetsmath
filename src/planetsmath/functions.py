@@ -30,5 +30,5 @@ def sum_product(list):
     return product
 
 def hello_marco():
-    x = print('Hello Marco!')
+    x = print('Hello Marco! This was quite the journey.')
     return x
