@@ -21,7 +21,11 @@ def sum_function(list):
     for item in list:
         sum += item
     return sum
-
+    
+def mult_by_two(num):
+    mult = num * 2
+    return mult
+    
 
 def sum_product(list):
     product = 1.0
