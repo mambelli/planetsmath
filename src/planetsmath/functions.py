@@ -28,3 +28,9 @@ def sum_product(list):
     for item in list:
         product *= item
     return product
+    
+def sum_division(list):
+    division = 5.0
+    for item in list:
+        division /= item
+    return division
