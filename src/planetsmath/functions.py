@@ -28,3 +28,8 @@ def sum_product(list):
     for item in list:
         product *= item
     return product
+
+def multiplybythree(list):
+    for item in list:
+        item = item * 3
+    return item
