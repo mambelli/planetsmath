@@ -30,6 +30,14 @@ def sum_product(list):
     return product
 
 
+
 def square(list):
     sq = [p*p for p in list]
     return sq
+
+def multiply_by_2(list):
+    product = 1.0
+    for item in list:
+        product *= 2
+    return product
+
