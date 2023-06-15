@@ -22,6 +22,9 @@ def sum_function(list):
         sum += item
     return sum
 
+def multiply(int1, int2):
+    return int1*int2
+    
 
 def sum_product(list):
     product = 1.0
