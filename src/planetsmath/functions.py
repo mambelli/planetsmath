@@ -20,25 +20,11 @@ def sum_function(list):
     sum = 0.0
     for item in list:
         sum += item
-    return sum+1
+    return sum
 
-def multiply(int1, int2):
-    return int1*int2
-    
 
 def sum_product(list):
     product = 1.0
     for item in list:
         product *= item
     return product
-
-
-def multiply_by_2(list):
-    product = 1.0
-    for item in list:
-        product *= 2
-    return product
-
-
-def youaregreat(name):
-    return name, ", You are great!"
