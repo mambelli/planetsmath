@@ -20,18 +20,8 @@ repos:
       - id: trailing-whitespace
         args:
           - "--markdown-linebreak-ext=md"
-  - repo: "https://github.com/pre-commit/pygrep-hooks"
-    rev: v1.9.0
-    hooks:
-      - id: python-check-blanket-noqa
-      - id: python-check-blanket-type-ignore
-      - id: python-use-type-annotations
-  - repo: "https://github.com/pycqa/isort"
-    rev: 5.10.1
-    hooks:
-      - id: isort
-  - repo: "https://github.com/psf/black"
-    rev: 22.3.0
+  - repo: https://github.com/psf/black-pre-commit-mirror
+    rev: "23.9.1"
     hooks:
       - id: black
   - repo: "https://github.com/pre-commit/mirrors-prettier"
@@ -49,14 +39,8 @@ repos:
       - id: pyupgrade
         args:
           - "--py36-plus"
-  - repo: https://github.com/pycqa/pylint
-    # 2.13.9 is the last version supporting Python 3.6
-    rev: v2.13.9
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: "v0.4.5"
     hooks:
-      - id: pylint
-  - repo: "https://github.com/fsfe/reuse-tool"
-    rev: v0.14.0
-    hooks:
-      - id: reuse
-        additional_dependencies:
-          - python-debian==0.1.40
+      - id: ruff
+        args: ["--fix", "--show-fixes"]
