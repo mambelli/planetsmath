@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2022 Fermi Research Alliance, LLC
 # SPDX-License-Identifier: Apache-2.0
+from __future__ import annotations
 
 from setuptools import setup
 
