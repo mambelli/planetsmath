@@ -23,12 +23,14 @@ def sum_function(list):
         sum += item
     return sum
 
+def print_hello():
+    print("hello!")
 
 def sum_product(lists):
+    def print_hello():
+        print("hello!")
     product = 1.0
     for item in lists:
         product *= item
     return product
 
-def print_hello():
-    print("hello!")
