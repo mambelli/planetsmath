@@ -36,3 +36,9 @@ def multiply_by_2(list):
     for item in list:
         product *= 2
     return product
+    
+def division_function(list):
+    division = 1.0
+    for item in list:
+        division/=item
+    return division
