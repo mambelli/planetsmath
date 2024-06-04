@@ -39,6 +39,15 @@ def multiply_by_2(list):
 
 
 def division_function(list):
+    """
+    A function that takes a list and returns 1/the product of the elements
+
+    Args:
+        list(list): list of numbers
+
+    Return:
+         float: 1/the product
+    """
     division = 1.0
     for item in list:
         division /= item
